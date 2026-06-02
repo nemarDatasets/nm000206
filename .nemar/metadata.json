@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
+  "title": "Neuroergonomic 2021 dataset",
+  "description": "A multi-session EEG dataset acquired from 15 healthy participants performing resting state and graded cognitive tasks (MATB-II at three difficulty levels). The dataset comprises 62-channel EEG recordings sampled at 500 Hz, designed for passive brain-computer interface applications and mental workload estimation in neuroergonomic contexts. This dataset includes raw EEG data with HED event annotations and is intended for cross-subject and cross-session machine learning studies.",
+  "methods_description": "EEG data were acquired using an ActiCHamp system (Brain Products GmbH) with 62 active Ag/AgCl electrodes positioned according to the standard 10-20 montage, referenced to Fpz. Sampling rate was 500 Hz with a 50 Hz line frequency. Impedance was maintained below 25 kOhm. Participants completed two sessions each, performing resting state and three difficulty levels of the MATB-II task. An auxiliary ECG channel was recorded.",
+  "license": "CC-BY-SA-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Marcel F. Hinss": {
       "orcid": "0000-0001-9977-4070"
@@ -11,6 +16,34 @@
     "Frédéric Dehais": {},
     "Raphaëlle N. Roy": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "mental workload"
+    },
+    {
+      "term": "neuroergonomics"
+    },
+    {
+      "term": "cognitive load"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "passive BCI"
+    },
+    {
+      "term": "MATB-II"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41597-022-01898-y",
@@ -45,14 +78,11 @@
       "award_title": "Artificial and Natural Intelligence Toulouse Institute"
     }
   ],
-  "title": "Neuroergonomic 2021 dataset",
-  "license": "CC-BY-SA-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "1.3 GB (31 files)"
   ],
@@ -64,38 +94,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "A multi-session EEG dataset acquired from 15 healthy participants performing resting state and graded difficulty levels of the Multi-Attribute Task Battery II (MATB-II) task. The dataset comprises 62-channel EEG recordings sampled at 500 Hz, designed for passive brain-computer interface applications and mental workload estimation in neuroergonomic contexts. This derivative dataset includes raw EEG data with HED event annotations and is intended for cross-subject and cross-session machine learning evaluations. The data were originally published in Hinss et al. (2023) and are hosted on Zenodo with HED annotations and standardized formatting for benchmarking purposes.",
-  "methods_description": "EEG data were acquired from 15 healthy participants (mean age 23.9 years) using a 62-channel ActiCHamp system (Brain Products GmbH) with active Ag/AgCl sensors at a sampling rate of 500 Hz. The reference electrode was placed at Fpz with impedance maintained below 25 kOhm. Participants completed two sessions each, performing resting state and three difficulty levels of the MATB-II task (easy, medium, difficult). Data were recorded with a 50 Hz line frequency and included auxiliary ECG channels.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "mental workload"
-    },
-    {
-      "term": "neuroergonomics"
-    },
-    {
-      "term": "resting state"
-    },
-    {
-      "term": "cognitive load"
-    },
-    {
-      "term": "passive BCI"
-    },
-    {
-      "term": "MATB-II"
-    },
-    {
-      "term": "workload estimation"
-    }
-  ],
-  "source_hash": "0afdc45035d98d76bfcebff666b64608a1979b240e91d053d4d94a9cfe4a7586"
+  "source_hash": "b3c62e30f94e5cf570d2262ecea75ff0027ce41d9080397e8054dde30deab992"
 }
